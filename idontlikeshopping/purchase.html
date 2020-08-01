@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>I Don't Like Shopping</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="index.js"></script>
+
+</head>
+
+<body>
+<div id="home-links">
+	<a href="account.html">Sign In</a>
+	<a href="cart.html">Cart (0)</a>
+</div>
+
+<div id="logo"><a href="index.html">
+  <img src="images/logo.png" alt="my_logo" style="width:150px;height:150px;border:0;">
+</a></div>
+
+  
+  <div class="row">
+
+    <div class="col-sm-2">
+		<nav class="navbar">
+		 <!-- Navbar -->
+		  <ul class="navbar-nav">
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Clothing</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Home</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Electronics</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Skincare</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Essentials</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Hobbies</a>
+		    </li>
+		  </ul>
+		</nav>
+    </div>
+
+
+ 	<div class="col-sm-6 shipping">
+	 	<div class="address"><h3><b>Shipping Address</b></h3></div>
+	     <form action="action_page.php" method="post">
+	      
+		  <div class="form purchase">
+		  	<form class="shipping-form">
+		    <label for="firstname"><b>First Name</b></label>
+		    <input id="account" type="text" name="firstname" required>
+
+		    <label for="lastname"><b>Last Name</b></label>
+		    <input id="account" type="text" name="lastname" required>
+
+		    <label for="address"><b>Address Line 1</b></label>
+		    <input id="account" type="text" name="address" required>
+
+		    <label for="address"><b>Address Line 2</b></label>
+		    <input id="account" type="text" name="address" required>
+
+		    <label for="zipcode"><b>Zip Code</b></label>
+		    <input id="account" type="text" name="zipcode" required>
+
+		    <label for="state"><b>State</b></label>
+		    <input id="account" type="text" name="state" required>
+
+		    <label for="city"><b>City</b></label>
+		    <input id="account" type="text" name="city" required>
+
+		    <label for="phone"><b>Phone Number</b></label>
+		    <input id="account" type="text" name="phone" required>
+
+		  </div>
+		</form>
+	</div>
+
+	<div class="col-sm-3 subtotal">
+		<span class="title">Subtotal</span> <span class="price">$20.00</span><br>
+		<span class="title">Shipping</span> <span class="price">FREE</span><br>
+		<span class="title">Tax</span>       <span class="price">$2.00</span><br>
+		<hr>
+		<span class="title"><b>Order Total</span> <span class="price">$22.00</span></b><br><br>
+		<a href="purchase.html" class="btn">Proceed to Checkout</a>
+	</div>
+
+  </div>
+
+  	<div class="col-sm-8 shipping-options">
+		<h3><b>Shipping Options</b></h3>
+		<div class="options">
+			<form id="options">
+			  <input type="radio" id="standard" name="shipping" value="standard">
+			  <label id="shipping" for="standard">Standard Shipping</label><br>
+			  <span class="price">Free</span>
+				<div id="descr">Transit time: 5-7 business days<br></div>
+			  <input type="radio" id="express" name="shipping" value="express">
+			  <label id="shipping" for="express">Express Shipping</label><br>
+			  <span class="price">$5.00</span>
+				<div id="descr">Transit time: 1-2 business days</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="col-sm-8 shipping-options payment">
+		<h3><b>Payment</b></h3>
+		<div class="cards">
+			<div id="field">Card Type</div>
+			<select name="cardtype" id="cardtype">
+				<option value="amex">American Express</option>
+				<option value="visa">Visa</option>
+				<option value="master">Mastercard</option>
+				<option value="disc">Discover</option>
+			</select>
+			<div id="field">Card Number</div>
+			<div id="field">Name on card</div>
+			<div id="field">Expiration Date</div>
+			<div id="field">CVV</div>
+
+			<div class="form card">
+		  	<form class="shipping-form">
+			    <label for="firstname"><b>First Name</b></label>
+			    <input id="account" type="text" name="firstname" required>
+
+			    <label for="lastname"><b>Last Name</b></label>
+			    <input id="account" type="text" name="lastname" required>
+
+			    <label for="address"><b>Address Line 1</b></label>
+			    <input id="account" type="text" name="address" required>
+
+			    <label for="address"><b>Address Line 2</b></label>
+			    <input id="account" type="text" name="address" required>
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

@@ -30,6 +30,40 @@ li a:hover {
 	padding-right: 150px;
 }
 
+/** CART PAGE **/
+a.btn {
+	width: 70%!important;
+	background-color: #e01a2b!important;
+	color: white!important;
+}
+
+a.btn:hover {
+	background-color: #e10a2b!important;
+}
+
+.col-sm-3.subtotal {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.col-sm-6.product {
+	padding-top: 100px;
+}
+
+span.price {
+	float: right;
+}
+
+span.title {
+	float: left;
+}
+
+span.product-image {
+	float: left;
+	padding-right: 20px;
+}
+
+
 a:hover {
 	color: #A1A1A1;
 }
@@ -122,3 +156,74 @@ input {
 .item-details.text-left {
 	padding-left: 100px;
 }
+
+/* Purchase page */
+.form.purchase {
+	padding-left: 30px;
+	padding-top: 40px;
+	width: 350px;
+}
+
+.address {
+	padding-top: 60px;
+}
+
+.col-sm-8.shipping-options {
+	padding-top: 80px;
+	padding-left: 200px;
+}
+
+.options {
+	padding-top: 20px;
+}
+
+input[type=radio] {
+	color: red;
+	width: 100px;
+	height: 15px;
+	font-size: 16px;
+}
+
+label#shipping {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+#descr {
+	padding-left: 110px;
+	padding-bottom: 10px;
+}
+
+.col-sm-8.shipping-options.payment {
+	padding-bottom: 100px;
+}
+
+#cardtype {
+	width: 200px;
+}
+
+.cards {
+	line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
